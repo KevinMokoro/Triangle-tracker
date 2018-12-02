@@ -14,3 +14,8 @@ h1{
 body{
   background-image: url("../images/triangle.jpg");
 }
+.type{
+  font-style: italic;
+  font-weight: bold;
+  color: orange;
+}
