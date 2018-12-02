@@ -3,3 +3,14 @@ h1{
   font-weight: bolder;
   font-style: italic;
 }
+.page{
+  text-align: center;
+  margin: 20px;
+  padding: 3px;
+  border-top: 28px;
+  margin-top: 200px;
+  background-color: grey;
+}
+body{
+  background-image: url("../images/triangle.jpg");
+}
