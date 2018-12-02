@@ -8,6 +8,9 @@ var c = parseInt(prompt("Enter the last side length"));
 if (a===b && b===c && c===a){
 alert("equilateral triangle");
 }
+else if ((a+b===c || b+c===a || a+c===b) || (a+b<c || b+c<a || a+c<b)){
+alert("Not a triangle");
+}
 else if (a===b || b===c || a===c){
 alert("isosceles triangle");
 }
