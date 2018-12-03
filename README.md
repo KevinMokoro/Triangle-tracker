@@ -1,11 +1,11 @@
-# Kevin-website
+# Triangle Tracker
 
 ## Project Author :
 KEVIN MOKORO
 ## Project description :
  Its a website that's is dedicated to evaluate different triangles depending on the side lengths provided by the user.Its based on equilateral,isosceles,scalene and if it can not form a triangle at all.
 ## Setup link to page :
- 
+
 ### support and contact details :
 klosvoke1@gmail.com or send message to 0701957703
 
