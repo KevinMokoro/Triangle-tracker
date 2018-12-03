@@ -1,7 +1,6 @@
 function triangle () {
 // return type of tringle //
 }
-var sides
 var a = parseInt(prompt("Enter a side length"));
 var b = parseInt(prompt("Enter another side length"));
 var c = parseInt(prompt("Enter the last side length"));
