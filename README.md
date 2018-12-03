@@ -20,8 +20,8 @@ Used to check what type of triangle if different side lengths are known.
 
 klosvoke1@gmail.com or send message to 0701957703
 
-####Contributing
-If you notice any changes that are necessary,discuss the changes with the email above.Any is welcome for discussion.
+###Contributing
+If you notice any changes that are necessary,discuss the changes with the email above.Any  is welcome for discussion.
 
 #### Copyright and license
 
