@@ -5,9 +5,16 @@ KEVIN MOKORO
 ## Project description :
  Its a website that's is dedicated to evaluate different triangles depending on the side lengths provided by the user.Its based on equilateral,isosceles,scalene and if it can not form a triangle at all.
 ## Setup link to page :
+Use the link below to install:
+ (https://kevinmokoro.github.io/Triangle-tracker/.)
 
+##usage
+Used to check what type of triangle if different side lengths are known.
 ### support and contact details :
 klosvoke1@gmail.com or send message to 0701957703
+
+####Contributing
+If you notice any changes that are necessary,discuss the changes with the email above.Any is welcome for discussion.
 
 #### Copyright and license
 Copyright <2018> <KEVIN MOKORO>
