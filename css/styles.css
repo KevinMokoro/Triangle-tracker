@@ -1,9 +1,10 @@
-h1{
+h1 {
   color: brown;
   font-weight: bolder;
   font-style: italic;
 }
-.page{
+
+.page {
   text-align: center;
   margin: 20px;
   padding: 3px;
@@ -11,21 +12,25 @@ h1{
   margin-top: 2px;
   background-color: grey;
 }
-body{
+
+body {
   background-image: url("../images/triangle.jpg");
 }
-.type{
+
+.type {
   font-style: italic;
   font-weight: bold;
   color: orange;
 }
-.use{
+
+.use {
   color: blue;
   font-style: italic;
 }
-#display{
-color: blue;
-float : right;
-font-weight: bold;
-font-size: 100px;
+
+#display {
+  color: blue;
+  float: right;
+  font-weight: bold;
+  font-size: 100px;
 }
