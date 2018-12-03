@@ -1,18 +1,23 @@
 function triangle () {
 // return type of tringle //
-}
-var a = parseInt(prompt("Enter a side length"));
-var b = parseInt(prompt("Enter another side length"));
-var c = parseInt(prompt("Enter the last side length"));
+var sides =[]
+var a = parseInt(document.getElementById('a').value);
+var b = parseInt(document.getElementById('b').value);
+var c = parseInt(document.getElementById('c').value);
+var display = document.querySelector("#display");
+sides.push(a);
+sides.push(b);
+sides.push(c);
 if (a===b && b===c && c===a){
-alert("equilateral triangle");
+display.innerHTML="equilateral triangle";
 }
 else if ((a+b===c || b+c===a || a+c===b) || (a+b<c || b+c<a || a+c<b)){
-alert("Not a triangle");
+display.innerHTML="Not a triangle";
 }
 else if (a===b || b===c || a===c){
-alert("isosceles triangle");
+display.innerHTML="isosceles triangle";
 }
 else if ((a+b>c || a+c>b || b+c>a)&&(a!==b || b!==c || c!==a)){
-alert("scalene triangle");
+display.innerHTML("scalene triangle");
+}
 }

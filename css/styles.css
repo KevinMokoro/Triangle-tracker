@@ -23,3 +23,8 @@ body{
   color: blue;
   font-style: italic;
 }
+display{
+color: blue;
+float : right;
+font-weight: bold;
+}
