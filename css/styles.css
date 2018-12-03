@@ -23,7 +23,7 @@ body{
   color: blue;
   font-style: italic;
 }
-display{
+#display{
 color: blue;
 float : right;
 font-weight: bold;

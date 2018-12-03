@@ -18,6 +18,6 @@ else if (a===b || b===c || a===c){
 display.innerHTML="isosceles triangle";
 }
 else if ((a+b>c || a+c>b || b+c>a)&&(a!==b || b!==c || c!==a)){
-display.innerHTML("scalene triangle");
+display.innerHTML="scalene triangle";
 }
 }
