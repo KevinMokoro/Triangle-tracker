@@ -4,7 +4,7 @@ function triangle() {
   var a = parseInt(document.getElementById('a').value);
   var b = parseInt(document.getElementById('b').value);
   var c = parseInt(document.getElementById('c').value);
-  var display = document.querySelector("#display");
+  var display = document.getElementById("display");
   sides.push(a);
   sides.push(b);
   sides.push(c);
@@ -14,7 +14,11 @@ function triangle() {
     display.innerHTML = "Not a triangle";
   } else if (a === b || b === c || a === c) {
     display.innerHTML = "isosceles triangle";
+
   } else if ((a + b > c || a + c > b || b + c > a) && (a !== b || b !== c || c !== a)) {
     display.innerHTML = "scalene triangle";
+  }
+  else {
+    display.innerHTML = "no values entered";
   }
 }
