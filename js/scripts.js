@@ -17,7 +17,3 @@ function triangle() {
     alert("no values entered");
   }
 }
-
-function refresh() {
-  location.reload();
-}
