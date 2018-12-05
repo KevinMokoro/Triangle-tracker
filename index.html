@@ -13,25 +13,19 @@
     <p>This page is dedicated to evaluate if a triangle is <span class="type">equalateral,isoceles,scalene or not a triangle </span>at all</p>
     <p>If you're wondering what <strong class="use">type of triangle</strong> you have,input the lengths of each side and press submit to instantly see what type of triangle it is.</p>
     <form class="" action="index.html" method="post">
-      <fieldset>
-        <legend>Enter in the fields below:</legend>
-        Enter a side length:<br>
-        <input type="text " name="" id="a">
-        <br>
-        Enter another side length:<br>
-        <input type="text" name="" value="" id="b">
-        <br>
-        Enter the remaining side length:<br>
-        <input type="text" name="" value="" id="c">
-        <br><br>
-        <input type="submit" value="Submit" onClick="triangle()">
-        <input type="reset">
-
-      </fieldset>
+      Enter a side length:<br>
+      <input type="text" name="" id="a">
+      <br>
+      Enter another side length:<br>
+      <input type="text" name="" value="" id="b">
+      <br>
+      Enter the remaining side length:<br>
+      <input type="text" name="" value="" id="c">
     </form>
-    <h1 id="display"></h1>
-  </div>
+    <button onclick="triangle()">Submit</button>
+    <button onclick="refresh()">Reset</button>
 
+  </div>
   <script src="js/scripts.js"></script>
 
 </body>
